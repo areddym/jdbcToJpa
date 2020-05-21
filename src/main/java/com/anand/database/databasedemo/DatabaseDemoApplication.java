@@ -80,6 +80,6 @@ public class DatabaseDemoApplication implements CommandLineRunner {
 
 		logger.info("All users -> {}", personJpaRepository.findAll());
 
-		logger.info("--------------jpaEntityManagerFlow flow end...--------------------");
+		logger.info("--------------jpaEntityManagerFlow flow end...---------------------");
 	}
 }
